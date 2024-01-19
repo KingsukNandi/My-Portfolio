@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kingsuk's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      text-align: justify;
+    }
+    body {
+      background-color: #ffffff;
+      color: #222222;
+      font-family: "Poppins", sans-serif;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 80px;
+      background-color: #22a39f;
+    }
+    nav ul {
+      display: flex;
+      justify-content: center;
+    }
+    nav ul li {
+      list-style: none;
+      margin: 0 23px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #222222;
+    }
+    nav ul li a:hover {
+      color: #434242;
+    }
+    .left {
+      font-size: 1.5rem;
+    }
+    .left img {
+      width: 30%;
+      margin: auto;
+      padding: 130px;
+    }
+    .right {
+      padding: 130px;
+    }
+    .firstSection {
+      display: flex;
+      margin: 40px 0;
+      justify-content: center;
+      align-items: center;
+    }
+    .firstSection > div {
+      width: 40vw;
+    }
+    .leftSection {
+      font-size: 3rem;
+    }
+    /* .rightSection {
+      width: 30%;
+      align-items: center;
+      justify-content: center;
+    } */
+    /* .rightSection {
+      justify-content: center;
+    } */
+    .rightSection img {
+      width: 114%;
+    }
+    .green {
+      color: #1a7975;
+    }
+    #element {
+      color: #1a7975;
+    }
+    .secondSection {
+      max-width: 80vw;
+      margin: auto;
+    }
+    .secondSection h1 {
+      font-size: 2rem;
+      padding: 20px 0;
+      color: #1d857f;
+    }
+    .text {
+      max-width: 50vw;
+      padding: 25px 35px;
+    }
+    .text span {
+      color: #1a7975;
+    }
+    #cards {
+      box-sizing: border-box;
+    }
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .card {
+      width: auto;
+      background-color: #f3efe0;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+      margin: 20px;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+    .card-content {
+      padding: 16px;
+    }
+    .card-content h3 {
+      font-size: 28px;
+      margin-bottom: 8px;
+      color: #1a7975;
+    }
+    .card-content p {
+      font-size: 15px;
+      line-height: 1.3;
+    }
+    .card-content .btn {
+      display: inline-block;
+      padding: 8px 16px;
+      background-color: #1a7975;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 16px;
+      color: #fff;
+    }
+    .text ul {
+      padding: 0px 0px 20px 35px;
+    }
+    .LRcontainer {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .LRcontainer > div {
+      width: 50%;
+    }
+    .img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: -15px;
+    }
+    .img img {
+      width: 32%;
+      border-radius: 20px;
+      box-shadow: 3px 3px 8px 6px rgba(0, 0, 0, 0.2);
+    }
+    .buttons {
+      display: flex;
+      padding: 8px 16px;
+      background-color: #22a39f;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 16px;
+      color: #000000;
+      justify-content: center;
+      align-items: center;
+    }
+    .buttons img {
+      padding: 10px;
+    }
+    .contactme {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <div class="left"><img src="logo.png" alt="logo" /></div>
+        <div class="right">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Skills</a></li>
+            <li><a href="/">Projects</a></li>
+            <li><a href="/">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftSection">
+          Hi, I am <span class="green">Kingsuk</span>
+          <div>I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightSection">
+          <img src="coder.png" class="skills" alt="Web Developer Picture" />
+        </div>
+      </section>
+      <section class="secondSection">
+        <hr />
+        <div class="LRcontainer">
+          <div class="AMleftSection">
+            <div class="text">
+              <h1>About Me</h1>
+              Aspiring
+              <span class="green">B.Tech (CSE) student</span> passionate about
+              <span class="green"
+                >web and app development, competitive programming, and the art
+                of problem-solving</span
+              >. Dedicated to continuous learning and innovation, with a keen
+              interest in contributing valuable skills to the tech industry.
+              Beyond coding, I explore the realms of music as a
+              <span class="green">beginner guitarist</span>, expressing
+              creativity through <span class="green">photography</span>. My love
+              for photography and guitar playing adds a unique dimension to my
+              multifaceted journey. Eager to evolve as a well-rounded developer
+              and make a positive impact on the digital landscape.
+            </div>
+          </div>
+
+          <div class="AMrightSection">
+            <div class="img">
+              <img src="me.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="secondSection">
+        <hr />
+        <h1>Skills</h1>
+        <div class="text">
+          <ul>
+            <li>
+              <b><span class="green">HTML:</span></b> Proficient in crafting
+              structured and semantic web content.
+            </li>
+            <li>
+              <b><span class="green">CSS:</span></b> Proficient in styling web
+              elements and layouts, working towards mastering responsive design
+              techniques.
+            </li>
+            <li>
+              <b><span class="green">C Language:</span></b> Strong foundation in
+              C programming for efficient and modular coding.
+            </li>
+            <li>
+              <b><span class="green">C++ Language:</span></b> Proficient in C++
+              for object-oriented programming and algorithm implementation.
+            </li>
+            <li>
+              <b><span class="green">Lightroom Photo Editing:</span></b>
+              Experienced in using Lightroom for enhancing and editing
+              photographic content.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="cards" class="secondSection">
+        <hr />
+        <h1>Projects</h1>
+        <div class="card-container">
+          <div class="card">
+            <img src="food delivery website.jpg" alt="" />
+            <div class="card-content">
+              <h3>Food Delivery</h3>
+              <p></p>
+              <a href="" class="btn">Show Project</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="gym website.png" alt="" />
+            <div class="card-content">
+              <h3>Gym Form</h3>
+              <p></p>
+              <a href="" class="btn">Show Project</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="photography.jpeg" alt="" />
+            <div class="card-content">
+              <h3>Photography</h3>
+              <p></p>
+              <a href="" class="btn">Show Project</a>
+            </div>
+          </div>
+        </div>
+
+        <section class="secondSection">
+          <hr />
+          <h1>Contact Me</h1>
+          <div class="contactme">
+            <a href="tel:9433619635" class="buttons"
+              ><img src="phone-call.png" alt="" />Contact</a
+            >
+            <a href="mailto:kingsuk24nandi@gmail.com" class="buttons"
+              ><img src="mail.png" alt="" />E-mail</a
+            >
+            <a href="https://www.linkedin.com/in/kingsuk-nandi/" class="buttons"
+              ><img src="linkedin (1).png" alt="" />LinkedIn</a
+            >
+            <a
+              href="https://www.instagram.com/its__kingsuk?utm_source=qr&igsh=MWZwdW5vMWZyZTE0NQ=="
+              class="buttons"
+              ><img src="instagram.png" alt="" />Instagram</a
+            >
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer"],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
